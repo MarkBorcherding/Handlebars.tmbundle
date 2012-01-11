@@ -216,11 +216,11 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#embedded-code</string>
+					<string>embedded-code</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#entities</string>
+					<string>entities</string>
 				</dict>
 			</array>
 		</dict>
@@ -252,11 +252,11 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#embedded-code</string>
+					<string>embedded-code</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#entities</string>
+					<string>entities</string>
 				</dict>
 			</array>
 		</dict>
@@ -319,11 +319,11 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>#embedded-code</string>
+							<string>embedded-code</string>
 						</dict>
 						<dict>
 							<key>include</key>
-							<string>#entities</string>
+							<string>entities</string>
 						</dict>
 					</array>
 				</dict>
@@ -356,11 +356,11 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>#embedded-code</string>
+							<string>embedded-code</string>
 						</dict>
 						<dict>
 							<key>include</key>
-							<string>#entities</string>
+							<string>entities</string>
 						</dict>
 					</array>
 				</dict>
@@ -388,7 +388,7 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#embedded-code</string>
+					<string>embedded-code</string>
 				</dict>
 			</array>
 		</dict>
