@@ -1,29 +1,12 @@
-# TextMate bundle for Handlebars
+# Sublime Text bundle from the TextMate bundle for Handlebars
 
-## Example look'n'feel
+## Original
 
-<img src="https://img.skitch.com/20110603-g7k1mjph7gg9fdsfbufnp24dim.png">
-<caption>LAZY theme</caption>
+Tweaked a bit from the [Handlebars.tmbundle](https://github.com/drnic/Handlebars.tmbundle).
 
-<img src="https://img.skitch.com/20110603-dkiebmdkq7wbrk97wqph9ggakd.png">
-<caption>Starburst theme</caption>
+## Hacking to fit in Sublime Text
 
-## Snippets
-
-### bindAttr
-
-Generate `{{bindAttr href="imageUrl"}}` attribute bindings within tags, using `ba` tab trigger.
-
-## Installation
-
-To install via Git:
-
-		mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-		cd ~/Library/Application\ Support/TextMate/Bundles
-		git clone git://github.com/drnic/Handlebars.tmbundle.git
-		osascript -e 'tell app "TextMate" to reload bundles'
-
-Source can be viewed or forked via GitHub: [http://github.com/drnic/Handlebars.tmbundle](http://github.com/drnic/Handlebars.tmbundle)
+Sublime Text didn't like `<string>#emedded-code</string/>` and `<string>#entities</string/>`. Dropping the `#` makes Sublime Text happy enough for me. I'm not sure if removing that launches missles or orphans puppies or what....but it works well enough for me right now. 
 
 ## About Handlebars
 
